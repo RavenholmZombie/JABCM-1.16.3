@@ -1,5 +1,8 @@
 package rz.mod.jabcm;
 
+import net.minecraft.block.Blocks;
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -15,7 +18,8 @@ public class JABCM_Main
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "jabcm";
 
-    public JABCM_Main() {
+    public JABCM_Main()
+    {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
@@ -33,4 +37,23 @@ public class JABCM_Main
     {
 
     }
+
+    // Creative Tabs for JABCM
+    public static final ItemGroup JABCM_BLOCKS = new ItemGroup("jabcm_blocks")
+    {
+        @Override
+        public ItemStack createIcon()
+        {
+            return new ItemStack(Blocks.BLUE_CONCRETE);
+        }
+    };
+
+    public static final ItemGroup JABCM_REDSTONE = new ItemGroup("jabcm_redstone")
+    {
+        @Override
+        public ItemStack createIcon()
+        {
+            return new ItemStack(Blocks.RED_CONCRETE);
+        }
+    };
 }

@@ -4,7 +4,7 @@ loaderVersion="[34,)" #mandatory This is typically bumped every Minecraft versio
 
 license="GNU GPL v3"
 
-issueTrackerURL="http://my.issue.tracker/" #optional
+issueTrackerURL="https://github.com/RavenholmZombie/Just-A-Basic-Concrete-Mod/issues" #optional
 
 [[mods]] #mandatory
 
@@ -14,11 +14,11 @@ version="1.16.3-0.0.2" #mandatory
 
 displayName="Just A Basic Concrete Mod" #mandatory
 
-updateJSONURL="http://myurl.me/" #optional
+updateJSONURL="https://google.com" #optional
 
-displayURL="http://example.com/" #optional
+displayURL="https://bit.ly/311NMx3" #optional
 
-logoFile="logo.png" #optional
+logoFile="jabcm.png" #optional
 
 credits="" #optional
 

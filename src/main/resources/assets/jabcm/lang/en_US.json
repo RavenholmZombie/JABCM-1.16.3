@@ -1,3 +1,6 @@
 {
-  "item.jabcm.spork": "The Spork of Power"
+  "item.jabcm.spork": "The Spork of Power",
+  "itemGroup.jabcm_blocks": "JABCM Building Blocks",
+  "itemGroup.jabcm_redstone": "JABCM Redstone",
+  "block.jabcm.concrete_special": "Rainbow Concrete"
 }
