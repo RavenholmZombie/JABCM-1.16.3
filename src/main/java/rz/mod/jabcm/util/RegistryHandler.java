@@ -22,9 +22,6 @@ public class RegistryHandler
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
     }
 
-    // Items
-    public static final RegistryObject<Item> SPORK = ITEMS.register("spork", ItemBase::new);
-
     // Blocks
     public static final RegistryObject<Block> CONCRETE_SPECIAL = BLOCKS.register("concrete_special", RainbowCrete::new);
 

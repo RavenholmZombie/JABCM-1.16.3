@@ -24,8 +24,8 @@ public class JABCM_Main
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
-        RegistryHandler.init();
         StairsRegistry.init();
+        RegistryHandler.init();
 
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -46,7 +46,7 @@ public class JABCM_Main
         @Override
         public ItemStack createIcon()
         {
-            return new ItemStack(Blocks.BLUE_CONCRETE);
+            return new ItemStack(StairsRegistry.WHITE_STAIRS.get());
         }
     };
 

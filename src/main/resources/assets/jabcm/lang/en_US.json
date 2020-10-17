@@ -1,7 +1,21 @@
 {
-  "item.jabcm.spork": "The Spork of Power",
   "itemGroup.jabcm_blocks": "JABCM Building Blocks",
   "itemGroup.jabcm_redstone": "JABCM Redstone",
   "block.jabcm.concrete_special": "Rainbow Concrete",
-  "block.jabcm.concrete_stairs_white": "White Concrete Stairs"
+  "block.jabcm.concrete_stairs_white": "White Concrete Stairs",
+  "block.jabcm.concrete_stairs_orange": "Orange Concrete Stairs",
+  "block.jabcm.concrete_stairs_magenta": "Magenta Concrete Stairs",
+  "block.jabcm.concrete_stairs_lblue": "Light Blue Concrete Stairs",
+  "block.jabcm.concrete_stairs_yellow": "Yellow Concrete Stairs",
+  "block.jabcm.concrete_stairs_lime": "Lime Concrete Stairs",
+  "block.jabcm.concrete_stairs_pink": "Pink Concrete Stairs",
+  "block.jabcm.concrete_stairs_gray": "Gray Concrete Stairs",
+  "block.jabcm.concrete_stairs_silver": "Light Gray Concrete Stairs",
+  "block.jabcm.concrete_stairs_cyan": "Cyan Concrete Stairs",
+  "block.jabcm.concrete_stairs_purple": "Purple Concrete Stairs",
+  "block.jabcm.concrete_stairs_blue": "Blue Concrete Stairs",
+  "block.jabcm.concrete_stairs_brown": "Brown Concrete Stairs",
+  "block.jabcm.concrete_stairs_red": "Red Concrete Stairs",
+  "block.jabcm.concrete_stairs_black": "Black Concrete Stairs",
+  "block.jabcm.concrete_stairs_special": "Rainbow Concrete Stairs"
 }

@@ -6,9 +6,9 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import rz.mod.jabcm.JABCM_Main;
 
-public class BlockItemBase extends BlockItem
+public class StairItemBase extends BlockItem
 {
-    public BlockItemBase(Block block)
+    public StairItemBase(Block block)
     {
         super(block, new Item.Properties().group(JABCM_Main.JABCM_BLOCKS));
     }

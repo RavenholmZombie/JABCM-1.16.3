@@ -13,6 +13,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import rz.mod.jabcm.JABCM_Main;
 import rz.mod.jabcm.blocks.BlockItemBase;
+import rz.mod.jabcm.blocks.StairItemBase;
+
+import java.rmi.registry.Registry;
 
 public class StairsRegistry
 {
@@ -27,8 +30,37 @@ public class StairsRegistry
 
     // Stair Blocks
     public static final RegistryObject<Block> WHITE_STAIRS = BLOCKS.register("concrete_stairs_white", () -> new StairsBlock(Blocks.WHITE_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.WHITE_TERRACOTTA)));
+    public static final RegistryObject<Block> ORANGE_STAIRS = BLOCKS.register("concrete_stairs_orange", () -> new StairsBlock(Blocks.ORANGE_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.ORANGE_TERRACOTTA)));
+    public static final RegistryObject<Block> MAGENTA_STAIRS = BLOCKS.register("concrete_stairs_magenta", () -> new StairsBlock(Blocks.MAGENTA_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.MAGENTA)));
+    public static final RegistryObject<Block> LBLUE_STAIRS = BLOCKS.register("concrete_stairs_lblue", () -> new StairsBlock(Blocks.LIGHT_BLUE_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.LIGHT_BLUE)));
+    public static final RegistryObject<Block> YELLOW_STAIRS = BLOCKS.register("concrete_stairs_yellow", () -> new StairsBlock(Blocks.YELLOW_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.YELLOW)));
+    public static final RegistryObject<Block> LIME_STAIRS = BLOCKS.register("concrete_stairs_lime", () -> new StairsBlock(Blocks.LIME_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.LIME)));
+    public static final RegistryObject<Block> PINK_STAIRS = BLOCKS.register("concrete_stairs_pink", () -> new StairsBlock(Blocks.PINK_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.PINK)));
+    public static final RegistryObject<Block> GRAY_STAIRS = BLOCKS.register("concrete_stairs_gray", () -> new StairsBlock(Blocks.GRAY_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.GRAY)));
+    public static final RegistryObject<Block> SILVER_STAIRS = BLOCKS.register("concrete_stairs_silver", () -> new StairsBlock(Blocks.LIGHT_GRAY_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.LIGHT_GRAY)));
+    public static final RegistryObject<Block> CYAN_STAIRS = BLOCKS.register("concrete_stairs_cyan", () -> new StairsBlock(Blocks.CYAN_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.CYAN)));
+    public static final RegistryObject<Block> PURPLE_STAIRS = BLOCKS.register("concrete_stairs_purple", () -> new StairsBlock(Blocks.PURPLE_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.PURPLE)));
+    public static final RegistryObject<Block> BLUE_STAIRS = BLOCKS.register("concrete_stairs_blue", () -> new StairsBlock(Blocks.BLUE_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.BLUE)));
+    public static final RegistryObject<Block> BROWN_STAIRS = BLOCKS.register("concrete_stairs_brown", () -> new StairsBlock(Blocks.BROWN_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.BROWN)));
+    public static final RegistryObject<Block> RED_STAIRS = BLOCKS.register("concrete_stairs_red", () -> new StairsBlock(Blocks.RED_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.RED)));
+    public static final RegistryObject<Block> BLACK_STAIRS = BLOCKS.register("concrete_stairs_black", () -> new StairsBlock(Blocks.BLACK_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.BLACK)));
+    public static final RegistryObject<Block> SPECIAL_STAIRS = BLOCKS.register("concrete_stairs_special", () -> new StairsBlock(Blocks.WHITE_CONCRETE.getDefaultState(), Block.Properties.create(Material.ROCK, MaterialColor.BLUE)));
 
     // Stair Block Items
-    public static final RegistryObject<Item> WHITE_STAIRS_ITEM = ITEMS.register("concrete_stairs_white", () -> new BlockItemBase(WHITE_STAIRS.get()));
-
+    public static final RegistryObject<Item> WHITE_STAIRS_ITEM = ITEMS.register("concrete_stairs_white", () -> new StairItemBase(WHITE_STAIRS.get()));
+    public static final RegistryObject<Item> ORANGE_STAIRS_ITEM = ITEMS.register("concrete_stairs_orange", () -> new StairItemBase(ORANGE_STAIRS.get()));
+    public static final RegistryObject<Item> MAGENTA_STAIRS_ITEM = ITEMS.register("concrete_stairs_magenta", () -> new StairItemBase(MAGENTA_STAIRS.get()));
+    public static final RegistryObject<Item> LBLUE_STAIRS_ITEM = ITEMS.register("concrete_stairs_lblue", () -> new StairItemBase(LBLUE_STAIRS.get()));
+    public static final RegistryObject<Item> YELLOW_STAIRS_ITEM = ITEMS.register("concrete_stairs_yellow", () -> new StairItemBase(YELLOW_STAIRS.get()));
+    public static final RegistryObject<Item> LIME_STAIRS_ITEM = ITEMS.register("concrete_stairs_lime", () -> new StairItemBase(LIME_STAIRS.get()));
+    public static final RegistryObject<Item> PINK_STAIRS_ITEM = ITEMS.register("concrete_stairs_pink", () -> new StairItemBase(PINK_STAIRS.get()));
+    public static final RegistryObject<Item> GRAY_STAIRS_ITEM = ITEMS.register("concrete_stairs_gray", () -> new StairItemBase(GRAY_STAIRS.get()));
+    public static final RegistryObject<Item> SILVER_STAIRS_ITEM = ITEMS.register("concrete_stairs_silver", () -> new StairItemBase(SILVER_STAIRS.get()));
+    public static final RegistryObject<Item> CYAN_STAIRS_ITEM = ITEMS.register("concrete_stairs_cyan", () -> new StairItemBase(CYAN_STAIRS.get()));
+    public static final RegistryObject<Item> PURPLE_STAIRS_ITEM = ITEMS.register("concrete_stairs_purple", () -> new StairItemBase(PURPLE_STAIRS.get()));
+    public static final RegistryObject<Item> BLUE_STAIRS_ITEM = ITEMS.register("concrete_stairs_blue", () -> new StairItemBase(BLUE_STAIRS.get()));
+    public static final RegistryObject<Item> BROWN_STAIRS_ITEM = ITEMS.register("concrete_stairs_brown", () -> new StairItemBase(BROWN_STAIRS.get()));
+    public static final RegistryObject<Item> RED_STAIRS_ITEM = ITEMS.register("concrete_stairs_red", () -> new StairItemBase(RED_STAIRS.get()));
+    public static final RegistryObject<Item> BLACK_STAIRS_ITEM = ITEMS.register("concrete_stairs_black", () -> new StairItemBase(BLACK_STAIRS.get()));
+    public static final RegistryObject<Item> SPECIAL_STAIRS_ITEM = ITEMS.register("concrete_stairs_special", () -> new StairItemBase(SPECIAL_STAIRS.get()));
 }
