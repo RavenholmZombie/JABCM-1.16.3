@@ -17,5 +17,13 @@
   "block.jabcm.concrete_stairs_brown": "Brown Concrete Stairs",
   "block.jabcm.concrete_stairs_red": "Red Concrete Stairs",
   "block.jabcm.concrete_stairs_black": "Black Concrete Stairs",
-  "block.jabcm.concrete_stairs_special": "Rainbow Concrete Stairs"
+  "block.jabcm.concrete_stairs_special": "Rainbow Concrete Stairs",
+
+  "block.jabcm.concrete_slab_white": "White Concrete Slab",
+  "block.jabcm.concrete_slab_orange": "Orange Concrete Slab",
+  "block.jabcm.concrete_slab_magenta": "Magenta Concrete Slab",
+  "block.jabcm.concrete_slab_lblue": "Light Blue Concrete Slab",
+  "block.jabcm.concrete_slab_yellow": "Yellow Concrete Slab",
+  "block.jabcm.concrete_slab_lime": "Lime Concrete Slab",
+  "block.jabcm.concrete_slab_pink": "Pink Concrete Slab"
 }

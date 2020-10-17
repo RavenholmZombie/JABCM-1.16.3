@@ -11,6 +11,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import rz.mod.jabcm.util.RegistryHandler;
+import rz.mod.jabcm.util.SlabRegistry;
 import rz.mod.jabcm.util.StairsRegistry;
 
 @Mod("jabcm")
@@ -26,6 +27,7 @@ public class JABCM_Main
 
         StairsRegistry.init();
         RegistryHandler.init();
+        SlabRegistry.init();
 
         MinecraftForge.EVENT_BUS.register(this);
     }
@@ -46,7 +48,7 @@ public class JABCM_Main
         @Override
         public ItemStack createIcon()
         {
-            return new ItemStack(StairsRegistry.WHITE_STAIRS.get());
+            return new ItemStack(StairsRegistry.SPECIAL_STAIRS.get());
         }
     };
 
