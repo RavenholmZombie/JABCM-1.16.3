@@ -11,6 +11,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import rz.mod.jabcm.util.RegistryHandler;
+import rz.mod.jabcm.util.StairsRegistry;
 
 @Mod("jabcm")
 public class JABCM_Main
@@ -24,6 +25,7 @@ public class JABCM_Main
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
         RegistryHandler.init();
+        StairsRegistry.init();
 
         MinecraftForge.EVENT_BUS.register(this);
     }
