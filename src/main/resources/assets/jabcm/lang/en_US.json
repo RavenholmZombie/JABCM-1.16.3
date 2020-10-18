@@ -25,5 +25,14 @@
   "block.jabcm.concrete_slab_lblue": "Light Blue Concrete Slab",
   "block.jabcm.concrete_slab_yellow": "Yellow Concrete Slab",
   "block.jabcm.concrete_slab_lime": "Lime Concrete Slab",
-  "block.jabcm.concrete_slab_pink": "Pink Concrete Slab"
+  "block.jabcm.concrete_slab_pink": "Pink Concrete Slab",
+  "block.jabcm.concrete_slab_gray": "Gray Concrete Slab",
+  "block.jabcm.concrete_slab_silver": "Light Gray Concrete Slab",
+  "block.jabcm.concrete_slab_cyan": "Cyan Concrete Slab",
+  "block.jabcm.concrete_slab_purple": "Purple Concrete Slab",
+  "block.jabcm.concrete_slab_blue": "Blue Concrete Slab",
+  "block.jabcm.concrete_slab_brown": "Brown Concrete Slab",
+  "block.jabcm.concrete_slab_red": "Red Concrete Slab",
+  "block.jabcm.concrete_slab_black": "Black Concrete Slab",
+  "block.jabcm.concrete_slab_special": "Rainbow Concrete Slab"
 }

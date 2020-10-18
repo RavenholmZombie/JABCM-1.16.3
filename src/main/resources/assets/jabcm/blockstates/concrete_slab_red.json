@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "jabcm:block/concrete_slab_red" },
+        "type=top": { "model": "jabcm:block/concrete_slab_red_top" },
+        "type=double": { "model": "block/red_concrete" }
+    }
+}
