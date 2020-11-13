@@ -26,22 +26,22 @@ public class SlabRegistry
     }
 
     // Slabs
-    public static final RegistryObject<Block> WHITE_SLAB = BLOCKS.register("concrete_slab_white", () -> new SlabBlock(Block.Properties.from(Blocks.WHITE_CONCRETE.getBlock())));
-    public static final RegistryObject<Block> ORANGE_SLAB = BLOCKS.register("concrete_slab_orange", () -> new SlabBlock(Block.Properties.from(Blocks.ORANGE_CONCRETE.getBlock())));
-    public static final RegistryObject<Block> MAGENTA_SLAB = BLOCKS.register("concrete_slab_magenta", () -> new SlabBlock(Block.Properties.from(Blocks.MAGENTA_CONCRETE.getBlock())));
-    public static final RegistryObject<Block> LBLUE_SLAB = BLOCKS.register("concrete_slab_lblue", () -> new SlabBlock(Block.Properties.from(Blocks.LIGHT_BLUE_CONCRETE.getBlock())));
-    public static final RegistryObject<Block> YELLOW_SLAB = BLOCKS.register("concrete_slab_yellow", () -> new SlabBlock(Block.Properties.from(Blocks.YELLOW_CONCRETE.getBlock())));
-    public static final RegistryObject<Block> LIME_SLAB = BLOCKS.register("concrete_slab_lime", () -> new SlabBlock(Block.Properties.from(Blocks.LIME_CONCRETE.getBlock())));
-    public static final RegistryObject<Block> PINK_SLAB = BLOCKS.register("concrete_slab_pink", () -> new SlabBlock(Block.Properties.from(Blocks.PINK_CONCRETE.getBlock())));
-    public static final RegistryObject<Block> GRAY_SLAB = BLOCKS.register("concrete_slab_gray", () -> new SlabBlock(Block.Properties.from(Blocks.GRAY_CONCRETE.getBlock())));
-    public static final RegistryObject<Block> SILVER_SLAB = BLOCKS.register("concrete_slab_silver", () -> new SlabBlock(Block.Properties.from(Blocks.LIGHT_GRAY_CONCRETE.getBlock())));
-    public static final RegistryObject<Block> CYAN_SLAB = BLOCKS.register("concrete_slab_cyan", () -> new SlabBlock(Block.Properties.from(Blocks.CYAN_CONCRETE.getBlock())));
-    public static final RegistryObject<Block> PURPLE_SLAB = BLOCKS.register("concrete_slab_purple", () -> new SlabBlock(Block.Properties.from(Blocks.PURPLE_CONCRETE.getBlock())));
-    public static final RegistryObject<Block> BLUE_SLAB = BLOCKS.register("concrete_slab_blue", () -> new SlabBlock(Block.Properties.from(Blocks.BLUE_CONCRETE.getBlock())));
-    public static final RegistryObject<Block> BROWN_SLAB = BLOCKS.register("concrete_slab_brown", () -> new SlabBlock(Block.Properties.from(Blocks.BROWN_CONCRETE.getBlock())));
-    public static final RegistryObject<Block> RED_SLAB = BLOCKS.register("concrete_slab_red", () -> new SlabBlock(Block.Properties.from(Blocks.RED_CONCRETE.getBlock())));
-    public static final RegistryObject<Block> BLACK_SLAB = BLOCKS.register("concrete_slab_black", () -> new SlabBlock(Block.Properties.from(Blocks.BLACK_CONCRETE.getBlock())));
-    public static final RegistryObject<Block> SPECIAL_SLAB = BLOCKS.register("concrete_slab_special", () -> new SlabBlock(Block.Properties.from(RegistryHandler.CONCRETE_SPECIAL.get())));
+    public static final RegistryObject<Block> WHITE_SLAB = BLOCKS.register("concrete_slab_white", () -> new SlabBlock(Block.Properties.from(Blocks.WHITE_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> ORANGE_SLAB = BLOCKS.register("concrete_slab_orange", () -> new SlabBlock(Block.Properties.from(Blocks.ORANGE_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> MAGENTA_SLAB = BLOCKS.register("concrete_slab_magenta", () -> new SlabBlock(Block.Properties.from(Blocks.MAGENTA_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> LBLUE_SLAB = BLOCKS.register("concrete_slab_lblue", () -> new SlabBlock(Block.Properties.from(Blocks.LIGHT_BLUE_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> YELLOW_SLAB = BLOCKS.register("concrete_slab_yellow", () -> new SlabBlock(Block.Properties.from(Blocks.YELLOW_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> LIME_SLAB = BLOCKS.register("concrete_slab_lime", () -> new SlabBlock(Block.Properties.from(Blocks.LIME_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> PINK_SLAB = BLOCKS.register("concrete_slab_pink", () -> new SlabBlock(Block.Properties.from(Blocks.PINK_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> GRAY_SLAB = BLOCKS.register("concrete_slab_gray", () -> new SlabBlock(Block.Properties.from(Blocks.GRAY_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> SILVER_SLAB = BLOCKS.register("concrete_slab_silver", () -> new SlabBlock(Block.Properties.from(Blocks.LIGHT_GRAY_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> CYAN_SLAB = BLOCKS.register("concrete_slab_cyan", () -> new SlabBlock(Block.Properties.from(Blocks.CYAN_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> PURPLE_SLAB = BLOCKS.register("concrete_slab_purple", () -> new SlabBlock(Block.Properties.from(Blocks.PURPLE_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> BLUE_SLAB = BLOCKS.register("concrete_slab_blue", () -> new SlabBlock(Block.Properties.from(Blocks.BLUE_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> BROWN_SLAB = BLOCKS.register("concrete_slab_brown", () -> new SlabBlock(Block.Properties.from(Blocks.BROWN_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> RED_SLAB = BLOCKS.register("concrete_slab_red", () -> new SlabBlock(Block.Properties.from(Blocks.RED_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> BLACK_SLAB = BLOCKS.register("concrete_slab_black", () -> new SlabBlock(Block.Properties.from(Blocks.BLACK_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> SPECIAL_SLAB = BLOCKS.register("concrete_slab_special", () -> new SlabBlock(Block.Properties.from(RegistryHandler.CONCRETE_SPECIAL.get()).hardnessAndResistance(1.8F)));
 
     // Slab Items
     public static final RegistryObject<Item> WHITE_SLAB_ITEM = ITEMS.register("concrete_slab_white", () -> new SlabItemBase(WHITE_SLAB.get()));
