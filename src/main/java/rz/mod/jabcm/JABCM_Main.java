@@ -10,6 +10,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import rz.mod.jabcm.util.FenceRegistry;
 import rz.mod.jabcm.util.RegistryHandler;
 import rz.mod.jabcm.util.SlabRegistry;
 import rz.mod.jabcm.util.StairsRegistry;
@@ -25,9 +26,11 @@ public class JABCM_Main
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
 
+        // Calls the init() for all JABCM block classes.
         StairsRegistry.init();
         RegistryHandler.init();
         SlabRegistry.init();
+        FenceRegistry.init();
 
         MinecraftForge.EVENT_BUS.register(this);
     }

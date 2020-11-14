@@ -34,5 +34,9 @@
   "block.jabcm.concrete_slab_brown": "Brown Concrete Slab",
   "block.jabcm.concrete_slab_red": "Red Concrete Slab",
   "block.jabcm.concrete_slab_black": "Black Concrete Slab",
-  "block.jabcm.concrete_slab_special": "Rainbow Concrete Slab"
+  "block.jabcm.concrete_slab_special": "Rainbow Concrete Slab",
+
+  "block.jabcm.jfence_white": "White Concrete Fence",
+  "block.jabcm.jfence_orange": "Orange Concrete Fence",
+  "block.jabcm.jfence_magenta": "Magenta Concrete Fence"
 }

@@ -14,7 +14,7 @@ version="1.16.3-0.0.2" #mandatory
 
 displayName="Just A Basic Concrete Mod" #mandatory
 
-updateJSONURL="https://google.com" #optional
+updateJSONURL="https://raw.githubusercontent.com/RavenholmZombie/Just-A-Basic-Concrete-Mod/master/update.json" #optional
 
 displayURL="https://bit.ly/311NMx3" #optional
 
