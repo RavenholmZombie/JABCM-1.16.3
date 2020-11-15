@@ -58,7 +58,7 @@ public class JABCM_Main
         @Override
         public ItemStack createIcon()
         {
-            return new ItemStack(PressurePlateRegistry.WHITE_JPLATE.get());
+            return new ItemStack(PressurePlateRegistry.SPECIAL_JPLATE.get());
         }
     };
 }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:magenta_concrete"
+  },
+  "result": "jabcm:concrete_stairs_magenta",
+  "count": 2
+}

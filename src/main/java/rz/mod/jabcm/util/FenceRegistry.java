@@ -41,6 +41,7 @@ public class FenceRegistry
     public static final RegistryObject<Block> GREEN_FENCE = BLOCKS.register("jfence_green", () -> new JABCMFence(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.8F).sound(SoundType.STONE)));
     public static final RegistryObject<Block> RED_FENCE = BLOCKS.register("jfence_red", () -> new JABCMFence(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.8F).sound(SoundType.STONE)));
     public static final RegistryObject<Block> BLACK_FENCE = BLOCKS.register("jfence_black", () -> new JABCMFence(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.8F).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> SPECIAL_FENCE = BLOCKS.register("jfence_special", () -> new JABCMFence(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.8F).sound(SoundType.STONE)));
 
 
     // Fence Items
@@ -60,5 +61,6 @@ public class FenceRegistry
     public static final RegistryObject<Item> GREEN_FENCE_ITEM = ITEMS.register("jfence_green", () -> new BlockItem(GREEN_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
     public static final RegistryObject<Item> RED_FENCE_ITEM = ITEMS.register("jfence_red", () -> new BlockItem(RED_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
     public static final RegistryObject<Item> BLACK_FENCE_ITEM = ITEMS.register("jfence_black", () -> new BlockItem(BLACK_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
+    public static final RegistryObject<Item> SPECIAL_FENCE_ITEM = ITEMS.register("jfence_special", () -> new BlockItem(SPECIAL_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
 
 }
