@@ -57,5 +57,21 @@
   "block.jabcm.jfence_red": "Red Concrete Fence",
   "block.jabcm.jfence_black": "Black Concrete Fence",
 
-  "block.jabcm.jplate_white": "White Concrete Pressure Plate"
+  "block.jabcm.jplate_white": "White Concrete Pressure Plate",
+  "block.jabcm.jplate_orange": "Orange Concrete Pressure Plate",
+  "block.jabcm.jplate_magenta": "Magenta Concrete Pressure Plate",
+  "block.jabcm.jplate_lblue": "Light Blue Concrete Pressure Plate",
+  "block.jabcm.jplate_yellow": "Yellow Concrete Pressure Plate",
+  "block.jabcm.jplate_lime": "Lime Concrete Pressure Plate",
+  "block.jabcm.jplate_pink": "Pink Concrete Pressure Plate",
+  "block.jabcm.jplate_gray": "Gray Concrete Pressure Plate",
+  "block.jabcm.jplate_silver": "Light Gray Concrete Pressure Plate",
+  "block.jabcm.jplate_cyan": "Cyan Concrete Pressure Plate",
+  "block.jabcm.jplate_purple": "Purple Concrete Pressure Plate",
+  "block.jabcm.jplate_blue": "Blue Concrete Pressure Plate",
+  "block.jabcm.jplate_brown": "Brown Concrete Pressure Plate",
+  "block.jabcm.jplate_green": "Green Concrete Pressure Plate",
+  "block.jabcm.jplate_red": "Red Concrete Pressure Plate",
+  "block.jabcm.jplate_black": "Black Concrete Pressure Plate",
+  "block.jabcm.jplate_special": "Rainbow Concrete Pressure Plate"
 }
