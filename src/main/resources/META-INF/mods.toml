@@ -10,13 +10,13 @@ issueTrackerURL="https://github.com/RavenholmZombie/Just-A-Basic-Concrete-Mod/is
 
 modId="jabcm" #mandatory
 
-version="1.16.3-0.0.2" #mandatory
+version="1.16.3-0.0.4" #mandatory
 
 displayName="Just A Basic Concrete Mod" #mandatory
 
 updateJSONURL="https://raw.githubusercontent.com/RavenholmZombie/Just-A-Basic-Concrete-Mod/master/update.json" #optional
 
-displayURL="https://bit.ly/311NMx3" #optional
+displayURL="http://rzmc.tk" #optional
 
 logoFile="jabcm.png" #optional
 
@@ -25,7 +25,7 @@ credits="" #optional
 authors="RavenholmZombie" #optional
 
 description='''
-JABCM is a basic concrete-focused decorative mod that adds in Concrete Stairs, Slabs, Pressure Plates, and fences!
+JABCM is a basic concrete-focused decorative mod that adds in Concrete Stairs, Slabs, Pressure Plates, and more!
 '''
 [[dependencies.examplemod]] #optional
     modId="forge" #mandatory
