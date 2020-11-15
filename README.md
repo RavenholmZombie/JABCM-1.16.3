@@ -1,4 +1,4 @@
-![JABCM Logo](https://i.imgur.com/tfLf9OG.png) 
+![JABCM Logo](https://i.imgur.com/VYQJZ4L.png) 
 
 JABCM Port for Minecraft 1.16.3
 
