@@ -40,6 +40,7 @@ public class SlabRegistry
     public static final RegistryObject<Block> BLUE_SLAB = BLOCKS.register("concrete_slab_blue", () -> new SlabBlock(Block.Properties.from(Blocks.BLUE_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
     public static final RegistryObject<Block> BROWN_SLAB = BLOCKS.register("concrete_slab_brown", () -> new SlabBlock(Block.Properties.from(Blocks.BROWN_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
     public static final RegistryObject<Block> RED_SLAB = BLOCKS.register("concrete_slab_red", () -> new SlabBlock(Block.Properties.from(Blocks.RED_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> GREEN_SLAB = BLOCKS.register("concrete_slab_green", () -> new SlabBlock(Block.Properties.from(Blocks.GREEN_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
     public static final RegistryObject<Block> BLACK_SLAB = BLOCKS.register("concrete_slab_black", () -> new SlabBlock(Block.Properties.from(Blocks.BLACK_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
     public static final RegistryObject<Block> SPECIAL_SLAB = BLOCKS.register("concrete_slab_special", () -> new SlabBlock(Block.Properties.from(RegistryHandler.CONCRETE_SPECIAL.get()).hardnessAndResistance(1.8F)));
 
@@ -57,6 +58,7 @@ public class SlabRegistry
     public static final RegistryObject<Item> PURPLE_SLAB_ITEM = ITEMS.register("concrete_slab_purple", () -> new SlabItemBase(PURPLE_SLAB.get()));
     public static final RegistryObject<Item> BLUE_SLAB_ITEM = ITEMS.register("concrete_slab_blue", () -> new SlabItemBase(BLUE_SLAB.get()));
     public static final RegistryObject<Item> BROWN_SLAB_ITEM = ITEMS.register("concrete_slab_brown", () -> new SlabItemBase(BROWN_SLAB.get()));
+    public static final RegistryObject<Item> GREEN_SLAB_ITEM = ITEMS.register("concrete_slab_green", () -> new SlabItemBase(GREEN_SLAB.get()));
     public static final RegistryObject<Item> RED_SLAB_ITEM = ITEMS.register("concrete_slab_red", () -> new SlabItemBase(RED_SLAB.get()));
     public static final RegistryObject<Item> BLACK_SLAB_ITEM = ITEMS.register("concrete_slab_black", () -> new SlabItemBase(BLACK_SLAB.get()));
     public static final RegistryObject<Item> SPECIAL_SLAB_ITEM = ITEMS.register("concrete_slab_special", () -> new SlabItemBase(SPECIAL_SLAB.get()));

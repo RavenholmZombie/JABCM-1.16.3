@@ -8,6 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import rz.mod.jabcm.JABCM_Main;
 import rz.mod.jabcm.blocks.BlockItemBase;
+import rz.mod.jabcm.blocks.JABCMBlock;
 import rz.mod.jabcm.blocks.RainbowCrete;
 import rz.mod.jabcm.items.ItemBase;
 
@@ -25,6 +26,11 @@ public class RegistryHandler
     // Blocks
     public static final RegistryObject<Block> CONCRETE_SPECIAL = BLOCKS.register("concrete_special", RainbowCrete::new);
 
+    // Concrete Bricks
+    public static final RegistryObject<Block> BRICKS_SPECIAL = BLOCKS.register("jbrick_special", JABCMBlock::new);
+
     // Block Items
     public static final RegistryObject<Item> CONCRETE_SPECIAL_ITEM = ITEMS.register("concrete_special", () -> new BlockItemBase(CONCRETE_SPECIAL.get()));
+    public static final RegistryObject<Item> BRICKS_SPECIAL_ITEM = ITEMS.register("jbrick_special", () -> new BlockItemBase(BRICKS_SPECIAL.get()));
+
 }

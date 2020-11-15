@@ -15,6 +15,7 @@
   "block.jabcm.concrete_stairs_purple": "Purple Concrete Stairs",
   "block.jabcm.concrete_stairs_blue": "Blue Concrete Stairs",
   "block.jabcm.concrete_stairs_brown": "Brown Concrete Stairs",
+  "block.jabcm.concrete_stairs_green": "Green Concrete Stairs",
   "block.jabcm.concrete_stairs_red": "Red Concrete Stairs",
   "block.jabcm.concrete_stairs_black": "Black Concrete Stairs",
   "block.jabcm.concrete_stairs_special": "Rainbow Concrete Stairs",
@@ -32,11 +33,27 @@
   "block.jabcm.concrete_slab_purple": "Purple Concrete Slab",
   "block.jabcm.concrete_slab_blue": "Blue Concrete Slab",
   "block.jabcm.concrete_slab_brown": "Brown Concrete Slab",
+  "block.jabcm.concrete_slab_green": "Green Concrete Slab",
   "block.jabcm.concrete_slab_red": "Red Concrete Slab",
   "block.jabcm.concrete_slab_black": "Black Concrete Slab",
   "block.jabcm.concrete_slab_special": "Rainbow Concrete Slab",
 
+  "block.jabcm.jbrick_special": "Rainbow Concrete Bricks",
+
   "block.jabcm.jfence_white": "White Concrete Fence",
   "block.jabcm.jfence_orange": "Orange Concrete Fence",
-  "block.jabcm.jfence_magenta": "Magenta Concrete Fence"
+  "block.jabcm.jfence_magenta": "Magenta Concrete Fence",
+  "block.jabcm.jfence_lblue": "Light Blue Concrete Fence",
+  "block.jabcm.jfence_yellow": "Yellow Concrete Fence",
+  "block.jabcm.jfence_lime": "Lime Concrete Fence",
+  "block.jabcm.jfence_pink": "Pink Concrete Fence",
+  "block.jabcm.jfence_gray": "Gray Concrete Fence",
+  "block.jabcm.jfence_silver": "Light Gray Concrete Fence",
+  "block.jabcm.jfence_cyan": "Cyan Concrete Fence",
+  "block.jabcm.jfence_purple": "Purple Concrete Fence",
+  "block.jabcm.jfence_blue": "Blue Concrete Fence",
+  "block.jabcm.jfence_brown": "Brown Concrete Fence",
+  "block.jabcm.jfence_green": "Green Concrete Fence",
+  "block.jabcm.jfence_red": "Red Concrete Fence",
+  "block.jabcm.jfence_black": "Black Concrete Fence"
 }

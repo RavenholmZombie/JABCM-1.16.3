@@ -3,6 +3,19 @@
   "values": [
     "jabcm:jfence_white",
 	"jabcm:jfence_orange",
-	"jabcm:jfence_magenta"
+	"jabcm:jfence_magenta",
+	"jabcm:jfence_lblue",
+	"jabcm:jfence_yellow",
+	"jabcm:jfence_lime",
+	"jabcm:jfence_pink",
+	"jabcm:jfence_gray",
+	"jabcm:jfence_silver",
+	"jabcm:jfence_cyan",
+	"jabcm:jfence_purple",
+	"jabcm:jfence_blue",
+	"jabcm:jfence_brown",
+	"jabcm:jfence_green",
+	"jabcm:jfence_red",
+	"jabcm:jfence_black"
   ]
 }
