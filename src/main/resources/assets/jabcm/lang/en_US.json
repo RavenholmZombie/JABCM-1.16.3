@@ -55,5 +55,7 @@
   "block.jabcm.jfence_brown": "Brown Concrete Fence",
   "block.jabcm.jfence_green": "Green Concrete Fence",
   "block.jabcm.jfence_red": "Red Concrete Fence",
-  "block.jabcm.jfence_black": "Black Concrete Fence"
+  "block.jabcm.jfence_black": "Black Concrete Fence",
+
+  "block.jabcm.jplate_white": "White Concrete Pressure Plate"
 }

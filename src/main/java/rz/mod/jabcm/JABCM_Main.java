@@ -10,10 +10,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import rz.mod.jabcm.util.FenceRegistry;
-import rz.mod.jabcm.util.RegistryHandler;
-import rz.mod.jabcm.util.SlabRegistry;
-import rz.mod.jabcm.util.StairsRegistry;
+import rz.mod.jabcm.util.*;
 
 @Mod("jabcm")
 public class JABCM_Main
@@ -31,13 +28,14 @@ public class JABCM_Main
         RegistryHandler.init();
         SlabRegistry.init();
         FenceRegistry.init();
+        PressurePlateRegistry.init();
 
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void setup(final FMLCommonSetupEvent event)
     {
-        LOGGER.info("JABCM 0.0.2-1.16.3 is loading...");
+        LOGGER.info("JABCM 0.0.4-1.16.3 is loading...");
     }
 
     private void doClientStuff(final FMLClientSetupEvent event)
@@ -60,7 +58,7 @@ public class JABCM_Main
         @Override
         public ItemStack createIcon()
         {
-            return new ItemStack(Blocks.RED_CONCRETE);
+            return new ItemStack(PressurePlateRegistry.WHITE_JPLATE.get());
         }
     };
 }
