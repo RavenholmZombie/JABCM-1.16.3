@@ -11,6 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import rz.mod.jabcm.JABCM_Main;
 import rz.mod.jabcm.blocks.RainbowCrete;
+import rz.mod.jabcm.blocks.RainbowSlab;
 import rz.mod.jabcm.blocks.SlabItemBase;
 import rz.mod.jabcm.blocks.StairItemBase;
 
@@ -42,7 +43,7 @@ public class SlabRegistry
     public static final RegistryObject<Block> RED_SLAB = BLOCKS.register("concrete_slab_red", () -> new SlabBlock(Block.Properties.from(Blocks.RED_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
     public static final RegistryObject<Block> GREEN_SLAB = BLOCKS.register("concrete_slab_green", () -> new SlabBlock(Block.Properties.from(Blocks.GREEN_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
     public static final RegistryObject<Block> BLACK_SLAB = BLOCKS.register("concrete_slab_black", () -> new SlabBlock(Block.Properties.from(Blocks.BLACK_CONCRETE.getBlock()).hardnessAndResistance(1.8F)));
-    public static final RegistryObject<Block> SPECIAL_SLAB = BLOCKS.register("concrete_slab_special", () -> new SlabBlock(Block.Properties.from(RegistryHandler.CONCRETE_SPECIAL.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> SPECIAL_SLAB = BLOCKS.register("concrete_slab_special", () -> new RainbowSlab(Block.Properties.from(RegistryHandler.CONCRETE_SPECIAL.get()).hardnessAndResistance(1.8F)));
 
     // Slab Items
     public static final RegistryObject<Item> WHITE_SLAB_ITEM = ITEMS.register("concrete_slab_white", () -> new SlabItemBase(WHITE_SLAB.get()));

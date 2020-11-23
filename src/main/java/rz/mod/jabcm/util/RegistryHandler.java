@@ -27,7 +27,7 @@ public class RegistryHandler
     public static final RegistryObject<Block> CONCRETE_SPECIAL = BLOCKS.register("concrete_special", RainbowCrete::new);
 
     // Concrete Bricks
-    public static final RegistryObject<Block> BRICKS_SPECIAL = BLOCKS.register("jbrick_special", JABCMBlock::new);
+    public static final RegistryObject<Block> BRICKS_SPECIAL = BLOCKS.register("jbrick_special", RainbowCrete::new);
     public static final RegistryObject<Block> BRICKS_WHITE = BLOCKS.register("jbrick_white", JABCMBlock::new);
     public static final RegistryObject<Block> BRICKS_ORANGE = BLOCKS.register("jbrick_orange", JABCMBlock::new);
     public static final RegistryObject<Block> BRICKS_MAGENTA = BLOCKS.register("jbrick_magenta", JABCMBlock::new);
