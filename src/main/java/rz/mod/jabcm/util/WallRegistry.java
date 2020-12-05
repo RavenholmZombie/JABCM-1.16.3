@@ -24,6 +24,7 @@ public class WallRegistry
     }
 
     //TODO: Do the blockstate, models, and data
+    //TODO: Concrete Brick Walls
 
     // Concrete Walls
     public static final RegistryObject<Block> WALL_WHITE = BLOCKS.register("concrete_wall_white", () -> new JABCMWall(Block.Properties.create(Material.ROCK).hardnessAndResistance(1.8F).sound(SoundType.STONE)));

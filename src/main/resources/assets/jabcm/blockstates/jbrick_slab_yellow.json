@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "jabcm:block/jbrick_slab_yellow" },
+        "type=top": { "model": "jabcm:block/jbrick_slab_yellow_top" },
+        "type=double": { "model": "jabcm:block/jbrick_yellow" }
+    }
+}

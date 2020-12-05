@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "jabcm:block/jbrick_slab_pink" },
+        "type=top": { "model": "jabcm:block/jbrick_slab_pink_top" },
+        "type=double": { "model": "jabcm:block/jbrick_pink" }
+    }
+}

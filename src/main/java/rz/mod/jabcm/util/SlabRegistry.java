@@ -60,4 +60,42 @@ public class SlabRegistry
     public static final RegistryObject<Item> RED_SLAB_ITEM = ITEMS.register("concrete_slab_red", () -> new SlabItemBase(RED_SLAB.get()));
     public static final RegistryObject<Item> BLACK_SLAB_ITEM = ITEMS.register("concrete_slab_black", () -> new SlabItemBase(BLACK_SLAB.get()));
     public static final RegistryObject<Item> SPECIAL_SLAB_ITEM = ITEMS.register("concrete_slab_special", () -> new SlabItemBase(SPECIAL_SLAB.get()));
+
+    // Concrete Brick Slabs
+    public static final RegistryObject<Block> JBRICK_SLAB_WHITE = BLOCKS.register("jbrick_slab_white", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_WHITE.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_ORANGE = BLOCKS.register("jbrick_slab_orange", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_ORANGE.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_MAGENTA = BLOCKS.register("jbrick_slab_magenta", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_MAGENTA.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_LBLUE = BLOCKS.register("jbrick_slab_lblue", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_LBLUE.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_YELLOW = BLOCKS.register("jbrick_slab_yellow", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_YELLOW.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_LIME = BLOCKS.register("jbrick_slab_lime", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_LIME.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_PINK = BLOCKS.register("jbrick_slab_pink", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_PINK.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_GRAY = BLOCKS.register("jbrick_slab_gray", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_GRAY.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_SILVER = BLOCKS.register("jbrick_slab_silver", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_SILVER.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_CYAN = BLOCKS.register("jbrick_slab_cyan", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_CYAN.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_PURPLE = BLOCKS.register("jbrick_slab_purple", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_PURPLE.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_BLUE = BLOCKS.register("jbrick_slab_blue", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_BLUE.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_BROWN = BLOCKS.register("jbrick_slab_brown", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_BROWN.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_RED = BLOCKS.register("jbrick_slab_red", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_RED.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_GREEN = BLOCKS.register("jbrick_slab_green", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_GREEN.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_BLACK = BLOCKS.register("jbrick_slab_black", () -> new SlabBlock(Block.Properties.from(RegistryHandler.BRICKS_BLACK.get()).hardnessAndResistance(1.8F)));
+    public static final RegistryObject<Block> JBRICK_SLAB_SPECIAL = BLOCKS.register("jbrick_slab_special", () -> new RainbowSlab(Block.Properties.from(RegistryHandler.BRICKS_SPECIAL.get()).hardnessAndResistance(1.8F)));
+
+    // Concrete Brick Slab Items
+    public static final RegistryObject<Item> WHITE_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_white", () -> new SlabItemBase(JBRICK_SLAB_WHITE.get()));
+    public static final RegistryObject<Item> ORANGE_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_orange", () -> new SlabItemBase(JBRICK_SLAB_ORANGE.get()));
+    public static final RegistryObject<Item> MAGENTA_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_magenta", () -> new SlabItemBase(JBRICK_SLAB_MAGENTA.get()));
+    public static final RegistryObject<Item> LBLUE_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_lblue", () -> new SlabItemBase(JBRICK_SLAB_LBLUE.get()));
+    public static final RegistryObject<Item> YELLOW_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_yellow", () -> new SlabItemBase(JBRICK_SLAB_YELLOW.get()));
+    public static final RegistryObject<Item> LIME_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_lime", () -> new SlabItemBase(JBRICK_SLAB_LIME.get()));
+    public static final RegistryObject<Item> PINK_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_pink", () -> new SlabItemBase(JBRICK_SLAB_PINK.get()));
+    public static final RegistryObject<Item> GRAY_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_gray", () -> new SlabItemBase(JBRICK_SLAB_GRAY.get()));
+    public static final RegistryObject<Item> SILVER_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_silver", () -> new SlabItemBase(JBRICK_SLAB_SILVER.get()));
+    public static final RegistryObject<Item> CYAN_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_cyan", () -> new SlabItemBase(JBRICK_SLAB_CYAN.get()));
+    public static final RegistryObject<Item> PURPLE_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_purple", () -> new SlabItemBase(JBRICK_SLAB_PURPLE.get()));
+    public static final RegistryObject<Item> BLUE_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_blue", () -> new SlabItemBase(JBRICK_SLAB_BLUE.get()));
+    public static final RegistryObject<Item> BROWN_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_brown", () -> new SlabItemBase(JBRICK_SLAB_BROWN.get()));
+    public static final RegistryObject<Item> GREEN_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_green", () -> new SlabItemBase(JBRICK_SLAB_GREEN.get()));
+    public static final RegistryObject<Item> RED_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_red", () -> new SlabItemBase(JBRICK_SLAB_RED.get()));
+    public static final RegistryObject<Item> BLACK_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_black", () -> new SlabItemBase(JBRICK_SLAB_BLACK.get()));
+    public static final RegistryObject<Item> SPECIAL_JBRICK_SLAB_ITEM = ITEMS.register("jbrick_slab_special", () -> new SlabItemBase(JBRICK_SLAB_SPECIAL.get()));
 }

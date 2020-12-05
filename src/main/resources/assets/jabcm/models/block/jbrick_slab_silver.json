@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "jabcm:blocks/jbrick_silver",
+    "top": "jabcm:blocks/jbrick_silver",
+    "side": "jabcm:blocks/jbrick_silver"
+  }
+}
