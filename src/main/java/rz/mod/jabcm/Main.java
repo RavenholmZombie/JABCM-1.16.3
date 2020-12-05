@@ -61,7 +61,7 @@ public class Main
         @Override
         public ItemStack createIcon()
         {
-            return new ItemStack(FenceRegistry.SPECIAL_FENCE.get());
+            return new ItemStack(WallRegistry.WALL_SPECIAL.get());
         }
     };
 

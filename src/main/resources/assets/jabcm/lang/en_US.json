@@ -93,5 +93,21 @@
   "block.jabcm.jplate_black": "Black Concrete Pressure Plate",
   "block.jabcm.jplate_special": "Rainbow Concrete Pressure Plate",
 
-  "block.jabcm.concrete_wall_white": "White Concrete Wall"
+  "block.jabcm.concrete_wall_white": "White Concrete Wall",
+  "block.jabcm.concrete_wall_orange": "Orange Concrete Wall",
+  "block.jabcm.concrete_wall_magenta": "Magenta Concrete Wall",
+  "block.jabcm.concrete_wall_lblue": "Light Blue Concrete Wall",
+  "block.jabcm.concrete_wall_yellow": "Yellow Concrete Wall",
+  "block.jabcm.concrete_wall_lime": "Lime Concrete Wall",
+  "block.jabcm.concrete_wall_pink": "Pink Concrete Wall",
+  "block.jabcm.concrete_wall_gray": "Gray Concrete Wall",
+  "block.jabcm.concrete_wall_silver": "Light Gray Concrete Wall",
+  "block.jabcm.concrete_wall_cyan": "Cyan Concrete Wall",
+  "block.jabcm.concrete_wall_purple": "Purple Concrete Wall",
+  "block.jabcm.concrete_wall_blue": "Blue Concrete Wall",
+  "block.jabcm.concrete_wall_brown": "Brown Concrete Wall",
+  "block.jabcm.concrete_wall_green": "Green Concrete Wall",
+  "block.jabcm.concrete_wall_red": "Red Concrete Wall",
+  "block.jabcm.concrete_wall_black": "Black Concrete Wall",
+  "block.jabcm.concrete_wall_special": "Rainbow Concrete Wall"
 }
