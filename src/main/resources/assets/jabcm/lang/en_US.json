@@ -91,5 +91,7 @@
   "block.jabcm.jplate_green": "Green Concrete Pressure Plate",
   "block.jabcm.jplate_red": "Red Concrete Pressure Plate",
   "block.jabcm.jplate_black": "Black Concrete Pressure Plate",
-  "block.jabcm.jplate_special": "Rainbow Concrete Pressure Plate"
+  "block.jabcm.jplate_special": "Rainbow Concrete Pressure Plate",
+
+  "block.jabcm.concrete_wall_white": "White Concrete Wall"
 }

@@ -13,12 +13,13 @@ import org.apache.logging.log4j.Logger;
 import rz.mod.jabcm.util.*;
 
 @Mod("jabcm")
-public class JABCM_Main
+public class Main
 {
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "jabcm";
+    public static final String VERSION = "0.0.5-1.16.3";
 
-    public JABCM_Main()
+    public Main()
     {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
@@ -29,13 +30,15 @@ public class JABCM_Main
         SlabRegistry.init();
         FenceRegistry.init();
         PressurePlateRegistry.init();
+        WallRegistry.init();
 
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void setup(final FMLCommonSetupEvent event)
     {
-        LOGGER.info("JABCM 0.0.4-1.16.3 is loading...");
+        LOGGER.info("JABCM " + VERSION + " by RavenholmZombie is loading...");
+        Quotes.QuoteSelect();
     }
 
     private void doClientStuff(final FMLClientSetupEvent event)

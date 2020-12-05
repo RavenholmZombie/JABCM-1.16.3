@@ -6,16 +6,15 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
-import rz.mod.jabcm.JABCM_Main;
+import rz.mod.jabcm.Main;
 import rz.mod.jabcm.blocks.BlockItemBase;
 import rz.mod.jabcm.blocks.JABCMBlock;
 import rz.mod.jabcm.blocks.RainbowCrete;
-import rz.mod.jabcm.items.ItemBase;
 
 public class RegistryHandler
 {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, JABCM_Main.MOD_ID);
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, JABCM_Main.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Main.MOD_ID);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Main.MOD_ID);
 
     public static void init()
     {
