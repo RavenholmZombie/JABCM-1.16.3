@@ -53,6 +53,15 @@ public class JABCM_Main
         }
     };
 
+    public static final ItemGroup JABCM_BARRIER = new ItemGroup("jabcm_wall")
+    {
+        @Override
+        public ItemStack createIcon()
+        {
+            return new ItemStack(FenceRegistry.SPECIAL_FENCE.get());
+        }
+    };
+
     public static final ItemGroup JABCM_REDSTONE = new ItemGroup("jabcm_redstone")
     {
         @Override

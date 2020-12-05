@@ -1,6 +1,7 @@
 {
-  "itemGroup.jabcm_blocks": "JABCM Building Blocks",
-  "itemGroup.jabcm_redstone": "JABCM Redstone",
+  "itemGroup.jabcm_blocks": "[JABCM] Building Blocks",
+  "itemGroup.jabcm_redstone": "[JABCM] Redstone",
+  "itemGroup.jabcm_wall": "[JABCM] Fences and Walls",
   "block.jabcm.concrete_special": "Rainbow Concrete",
   "block.jabcm.concrete_stairs_white": "White Concrete Stairs",
   "block.jabcm.concrete_stairs_orange": "Orange Concrete Stairs",

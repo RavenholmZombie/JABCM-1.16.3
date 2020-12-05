@@ -45,22 +45,22 @@ public class FenceRegistry
 
 
     // Fence Items
-    public static final RegistryObject<Item> WHITE_FENCE_ITEM = ITEMS.register("jfence_white", () -> new BlockItem(WHITE_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> ORANGE_FENCE_ITEM = ITEMS.register("jfence_orange", () -> new BlockItem(ORANGE_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> MAGENTA_FENCE_ITEM = ITEMS.register("jfence_magenta", () -> new BlockItem(MAGENTA_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> LBLUE_FENCE_ITEM = ITEMS.register("jfence_lblue", () -> new BlockItem(LBLUE_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> YELLOW_FENCE_ITEM = ITEMS.register("jfence_yellow", () -> new BlockItem(YELLOW_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> LIME_FENCE_ITEM = ITEMS.register("jfence_lime", () -> new BlockItem(LIME_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> PINK_FENCE_ITEM = ITEMS.register("jfence_pink", () -> new BlockItem(PINK_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> GRAY_FENCE_ITEM = ITEMS.register("jfence_gray", () -> new BlockItem(GRAY_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> SILVER_FENCE_ITEM = ITEMS.register("jfence_silver", () -> new BlockItem(SILVER_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> CYAN_FENCE_ITEM = ITEMS.register("jfence_cyan", () -> new BlockItem(CYAN_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> PURPLE_FENCE_ITEM = ITEMS.register("jfence_purple", () -> new BlockItem(PURPLE_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> BLUE_FENCE_ITEM = ITEMS.register("jfence_blue", () -> new BlockItem(BLUE_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> BROWN_FENCE_ITEM = ITEMS.register("jfence_brown", () -> new BlockItem(BROWN_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> GREEN_FENCE_ITEM = ITEMS.register("jfence_green", () -> new BlockItem(GREEN_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> RED_FENCE_ITEM = ITEMS.register("jfence_red", () -> new BlockItem(RED_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> BLACK_FENCE_ITEM = ITEMS.register("jfence_black", () -> new BlockItem(BLACK_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
-    public static final RegistryObject<Item> SPECIAL_FENCE_ITEM = ITEMS.register("jfence_special", () -> new BlockItem(SPECIAL_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BLOCKS)));
+    public static final RegistryObject<Item> WHITE_FENCE_ITEM = ITEMS.register("jfence_white", () -> new BlockItem(WHITE_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> ORANGE_FENCE_ITEM = ITEMS.register("jfence_orange", () -> new BlockItem(ORANGE_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> MAGENTA_FENCE_ITEM = ITEMS.register("jfence_magenta", () -> new BlockItem(MAGENTA_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> LBLUE_FENCE_ITEM = ITEMS.register("jfence_lblue", () -> new BlockItem(LBLUE_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> YELLOW_FENCE_ITEM = ITEMS.register("jfence_yellow", () -> new BlockItem(YELLOW_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> LIME_FENCE_ITEM = ITEMS.register("jfence_lime", () -> new BlockItem(LIME_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> PINK_FENCE_ITEM = ITEMS.register("jfence_pink", () -> new BlockItem(PINK_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> GRAY_FENCE_ITEM = ITEMS.register("jfence_gray", () -> new BlockItem(GRAY_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> SILVER_FENCE_ITEM = ITEMS.register("jfence_silver", () -> new BlockItem(SILVER_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> CYAN_FENCE_ITEM = ITEMS.register("jfence_cyan", () -> new BlockItem(CYAN_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> PURPLE_FENCE_ITEM = ITEMS.register("jfence_purple", () -> new BlockItem(PURPLE_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> BLUE_FENCE_ITEM = ITEMS.register("jfence_blue", () -> new BlockItem(BLUE_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> BROWN_FENCE_ITEM = ITEMS.register("jfence_brown", () -> new BlockItem(BROWN_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> GREEN_FENCE_ITEM = ITEMS.register("jfence_green", () -> new BlockItem(GREEN_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> RED_FENCE_ITEM = ITEMS.register("jfence_red", () -> new BlockItem(RED_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> BLACK_FENCE_ITEM = ITEMS.register("jfence_black", () -> new BlockItem(BLACK_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
+    public static final RegistryObject<Item> SPECIAL_FENCE_ITEM = ITEMS.register("jfence_special", () -> new BlockItem(SPECIAL_FENCE.get(), new Item.Properties().group(JABCM_Main.JABCM_BARRIER)));
 
 }
