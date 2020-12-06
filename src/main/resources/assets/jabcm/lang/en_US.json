@@ -145,5 +145,23 @@
   "block.jabcm.concrete_wall_green": "Green Concrete Wall",
   "block.jabcm.concrete_wall_red": "Red Concrete Wall",
   "block.jabcm.concrete_wall_black": "Black Concrete Wall",
-  "block.jabcm.concrete_wall_special": "Rainbow Concrete Wall"
+  "block.jabcm.concrete_wall_special": "Rainbow Concrete Wall",
+  
+  "block.jabcm.jbrick_wall_white": "White Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_orange": "Orange Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_magenta": "Magenta Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_lblue": "Light Blue Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_yellow": "Yellow Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_lime": "Lime Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_pink": "Pink Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_gray": "Gray Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_silver": "Light Gray Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_cyan": "Cyan Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_purple": "Purple Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_blue": "Blue Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_brown": "Brown Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_green": "Green Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_red": "Red Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_black": "Black Concrete Brick Wall",
+  "block.jabcm.jbrick_wall_special": "Rainbow Concrete Brick Wall"
 }
