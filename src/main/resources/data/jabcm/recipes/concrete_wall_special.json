@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "jabcm:concrete_special"
+  },
+  "result": "jabcm:concrete_wall_special",
+  "count": 3
+}

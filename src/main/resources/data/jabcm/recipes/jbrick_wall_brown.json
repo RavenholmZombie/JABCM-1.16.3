@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "jabcm:jbrick_brown"
+  },
+  "result": "jabcm:jbrick_wall_brown",
+  "count": 3
+}

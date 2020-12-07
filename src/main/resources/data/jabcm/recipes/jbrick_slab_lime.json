@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "jabcm:jbrick_lime"
+  },
+  "result": "jabcm:jbrick_slab_lime",
+  "count": 2
+}

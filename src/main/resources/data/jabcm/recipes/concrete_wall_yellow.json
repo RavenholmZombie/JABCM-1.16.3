@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:yellow_concrete"
+  },
+  "result": "jabcm:concrete_wall_yellow",
+  "count": 3
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "jabcm:jbrick_yellow"
+  },
+  "result": "jabcm:jbrick_slab_yellow",
+  "count": 2
+}
