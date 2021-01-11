@@ -10,7 +10,7 @@ issueTrackerURL="https://github.com/RavenholmZombie/Just-A-Basic-Concrete-Mod/is
 
 modId="jabcm" #mandatory
 
-version="1.16.3-0.0.5" #mandatory
+version="1.16.3-0.0.6" #mandatory
 
 displayName="Just A Basic Concrete Mod" #mandatory
 

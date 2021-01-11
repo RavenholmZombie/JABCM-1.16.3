@@ -1,10 +1,11 @@
 package rz.mod.jabcm;
 
-import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -17,7 +18,7 @@ public class Main
 {
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "jabcm";
-    public static final String VERSION = "0.0.5-1.16.3";
+    public static final String VERSION = "1.16.3-0.0.6";
 
     public Main()
     {
@@ -32,13 +33,20 @@ public class Main
         PressurePlateRegistry.init();
         WallRegistry.init();
 
+        //Load the config
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, JABCMConfig.commonSpec);
+
         MinecraftForge.EVENT_BUS.register(this);
     }
 
     private void setup(final FMLCommonSetupEvent event)
     {
         LOGGER.info("JABCM " + VERSION + " by RavenholmZombie is loading...");
-        Quotes.QuoteSelect();
+
+        if(JABCMConfig.COMMON.showQuotes.get() == true)
+        {
+            Quotes.QuoteSelect();
+        }
     }
 
     private void doClientStuff(final FMLClientSetupEvent event)
